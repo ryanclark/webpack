@@ -914,6 +914,10 @@ export interface FileCacheOptions {
 	 */
 	cacheLocation?: string;
 	/**
+	 * Compression type used for the cache files.
+	 */
+	compression?: false | "gzip" | "brotli";
+	/**
 	 * Algorithm used for generation the hash (see node.js crypto package).
 	 */
 	hashAlgorithm?: string;
